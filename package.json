@@ -1,0 +1,26 @@
+{
+  "name": "boulder-trial",
+  "version": "0.0.1",
+  "description": "speed bouldering game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grantfree035/boulder-trial.git"
+  },
+  "keywords": [
+    "webapp",
+    "climbing",
+    "boulder",
+    "speed",
+    "trial"
+  ],
+  "author": "Grant Freeman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grantfree035/boulder-trial/issues"
+  },
+  "homepage": "https://github.com/grantfree035/boulder-trial#readme"
+}
