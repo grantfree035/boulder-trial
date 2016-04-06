@@ -2,8 +2,9 @@
   "name": "boulder-trial",
   "version": "0.0.1",
   "description": "speed bouldering game",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/grantfree035/boulder-trial/issues"
   },
-  "homepage": "https://github.com/grantfree035/boulder-trial#readme"
+  "homepage": "https://github.com/grantfree035/boulder-trial#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.4"
+  },
+  "private": true
 }
