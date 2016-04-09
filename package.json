@@ -2,9 +2,10 @@
   "name": "boulder-trial",
   "version": "0.0.1",
   "description": "speed bouldering game",
-  "main": "main.js",
+  "main": "app/main.js",
   "scripts": {
     "start": "electron .",
+    "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,7 +26,15 @@
   },
   "homepage": "https://github.com/grantfree035/boulder-trial#readme",
   "devDependencies": {
-    "electron-prebuilt": "^0.37.4"
+    "chai": "^3.5.0",
+    "electron-prebuilt": "^0.37.4",
+    "eslint": "^2.7.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-jshint": "^2.0.0",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0",
+    "mocha": "^2.4.5"
   },
   "private": true
 }
